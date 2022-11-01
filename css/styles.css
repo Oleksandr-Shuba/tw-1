@@ -75,19 +75,32 @@ h6 {
     text-transform: uppercase;
 }
 
-.header-btn {
+.btn {
     font-family: inherit;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: var(--color-white);
+    cursor: pointer;
     border: 1px solid #FF6C00;
     border-radius: 25px;
-    cursor: pointer;
+}
+
+.header-btn {
+
+    color: var(--color-white);
+    border-radius: 25px;
 
 }
+
+.uptitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+}
+
+
 
 /*-----HEADER-ENDS-------*/
 
@@ -106,9 +119,7 @@ h6 {
 }
 
 .hero .uptitle {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
+
     text-transform: uppercase;
     color: var(--color-gray)
 }
@@ -160,9 +171,7 @@ h6 {
 .about-item {}
 
 .about-uptitle {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
+
     text-transform: uppercase;
     color: #303030;
 }
@@ -191,13 +200,7 @@ h6 {
 }
 
 .about-btn {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    cursor: pointer;
+
     color: #303030;
 }
 
@@ -219,32 +222,32 @@ h6 {
     color: rgba(157, 164, 189, 0.6);
 }
 
-.title-prices {
+.prices-uptitle {
+
     color: #FFFFFF;
 }
 
-.section-title {}
+.section-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
 
-.prices-list {}
-
-.prices-item {}
-
-.prices-item-text {
+.prices-list {
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.66;
     letter-spacing: 0.02em;
     color: #9DA4BD;
 }
 
+
 .prices-btn {
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
+
     color: #FFFFFF;
-    cursor: pointer;
+
 }
 
 /* ------PRICE--SECTION---ENDS--------- */
@@ -270,7 +273,7 @@ h6 {
 .benefits-plus {
     font-weight: 600;
     font-size: 16px;
-    line-height: 1.37;
+    line-height: 1.36;
     text-align: center;
     color: #FF6C00;
 }
@@ -278,15 +281,46 @@ h6 {
 .benefits-item-text {
     font-weight: 600;
     font-size: 11px;
-    line-height: 15px;
+    line-height: 1.36;
     text-align: center;
     color: #303030;
 }
 
-.benefits-uptitle {}
+.benefits-uptitle {
+    text-transform: uppercase;
+    color: #303030;
+}
 
 .section-title {}
 
 .benefits-title {}
 
 .benefits-subtitle {}
+
+
+
+
+/* -----CONTACTS------- */
+
+.contacts {}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.contact-btn {
+
+    color: #FFFFFF;
+}
+
+
+
+.contact {}
+
+.wh-title {}
+
+.wh-subtitle {}
