@@ -1,8 +1,27 @@
+/* ---Primary-page-color: #FFFFFF; */
+/* ---Secondary-page-color: #303030; */
+/* ---Accent-page-color: #FF6C00 */
+/* ---HeroSubtitle-PricesList-ContactItem-whSubtitle-Grey-color: #9DA4BD;*/
+/* ---HeroUptitle-Herosubtitletextlink-Pricesuptitle uptitle-Bookinglinkcolor: rgba(157, 164, 189, 0.4); */
+
+:root {
+    --Primary-page-color: #FFFFFF;
+    --Secondary-page-color: #303030;
+    --Accent-page-color: #FF6C00;
+    --HeroSubtitle-PricesList-ContactItem-whSubtitle-Grey-color: #9DA4BD;
+}
+
+--HeroUptitle-Herosubtitletextlink-Pricesuptitle uptitle-Bookinglinkcolor: rgba(157, 164, 189, 0.4);
+
 * {
     margin: 0px;
     padding: 0px;
-
 }
+
+body {
+    background-color: #E5E5E5;
+}
+
 
 /*----------------------- HEADER----LOGOSECTION---------------- */
 
@@ -10,11 +29,9 @@
     background-image: url(../images/hero.jpg)
 }
 
-.logo-section {}
+.section-logo {}
 
-.image-logo {
-    
-}
+.image-logo {}
 
 .uphero-list {}
 
@@ -27,23 +44,23 @@
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.2em;
-    color: #303030;
+    color: var(--Secondary-page-color);
 }
 
 .link:focus,
 .link:hover {
-    color: #FF6C00;
+    color: var(--Accent-page-color);
 }
 
 .link:active {
-    color: #FF6C00;
+    color: var(--Accent-page-color);
 }
 
 
 
 /* ---------------HEADER---SECTIONHERO--------------- */
 
-.hero {}
+.section-hero {}
 
 .header-nav {}
 
@@ -54,12 +71,12 @@
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: var(--Primary-page-color);
 
 }
 
 .current {
-    color: #FF6C00;
+    color: var(--Accent-page-color);
 }
 
 .header-contact {
@@ -70,7 +87,7 @@
     line-height: 1.33;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--Primary-page-color);
 }
 
 .header-btn {
@@ -82,7 +99,7 @@
     letter-spacing: 0.09em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--Primary-page-color);
 }
 
 .btn {}
@@ -94,7 +111,7 @@
     font-size: 11px;
     line-height: 1.36;
     text-transform: uppercase;
-    color: rgba(157, 164, 189, 0.6);
+    color: var(--HeroUptitle-Herosubtitletextlink-Pricesuptitle);
 }
 
 .uptitle {}
@@ -106,19 +123,81 @@
     font-size: 72px;
     line-height: 1.18;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: var(--Primary-page-color);
 }
 
 .section-title {}
 
-.hero-subtitle {
+.hero-subtitle-text {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.66;
     letter-spacing: 0.02em;
-    color: #9DA4BD;
+    color: var(--HeroSubtitle-PricesList-ContactItem-whSubtitle-Grey-color);
 }
 
-/* ------------------------------- */
+
+
+/* ----------SECTION-ABOUT--------------------- */
+.section-about {}
+
+.about-item {}
+
+.about-uptitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--HeroUptitle-Herosubtitletextlink-Pricesuptitle);
+}
+
+.uptitle {}
+
+.about-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--Secondary-page-color);
+}
+
+.section-title {}
+
+.about-subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.66;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.about-btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--Secondary-page-color);
+}
+
+.btn {}
