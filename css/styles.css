@@ -26,6 +26,7 @@ body {
 /*----------------------- HEADER----LOGOSECTION---------------- */
 
 .header {
+    padding-top: 32px;
     background-image: url(../images/hero.jpg)
 }
 
@@ -55,6 +56,19 @@ body {
 .link:active {
     color: var(--Accent-page-color);
 }
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+}
+
 
 
 
