@@ -25,20 +25,23 @@ body {
 
 /*----------------------- HEADER----LOGOSECTION---------------- */
 
-.header {
-    padding-top: 32px;
-    background-image: url(../images/hero.jpg)
-}
+
 
 .section-logo {}
 
-.image-logo {}
+.image-logo {
+ margin-top: 32px;
+ margin-left: 55px;   
+}
 
-.uphero-list {}
+.uphero-list {
+    background-color: aqua;
+}
 
 .uphero-item {}
 
 .uphero-link {
+    margin-top: 40px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -68,15 +71,28 @@ body {
     margin: 0 auto;
     outline: 2px solid tomato;
 }
+.section {
+    /* padding-top: 92px; */
+    padding-bottom: 92px;
+}
 
 
 
 
 /* ---------------HEADER---SECTIONHERO--------------- */
 
-.section-hero {}
+.header {
+    
+    background-image: url(../images/hero.jpg)
+}
 
-.header-nav {}
+.header-nav {
+    /* margin: 40px 20px 0px 100px; */
+   
+}
+.header-nav-list {
+    display: flex;
+}
 
 .header-nav-item {}
 

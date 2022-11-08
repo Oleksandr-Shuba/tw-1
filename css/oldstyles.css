@@ -13,9 +13,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.logo {
 
-}
 
 ul {
     list-style: none;
@@ -32,8 +30,9 @@ ul {
 /*-----HEADER-BEGINS----*/
 
 
-.header {
-    
+.top-header {
+    /* padding-top: 0px; */
+   
 }
 
 .header a {
@@ -128,7 +127,7 @@ h6 {
 }
 
 .hero {
-    background-image: url(../images/hero.jpg);
+    /* background-image: url(../images/hero.jpg); */
 }
 
 .hero .uptitle {
