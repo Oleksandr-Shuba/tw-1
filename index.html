@@ -24,34 +24,25 @@
 <body>
 
     <header class="header">
-        <section class="section top-header">
-            <div class="container-section">
+        <section class="section">
+            <div class="container">
                 <a href="#" class="image-logo">
                     <img src="./images/logo.svg" alt="logo">
                 </a>
 
-                <ul class="uphero-link">
-                    <li class="uphero-item">
-                        <a class="uphero-link link" href="/" target="_blank" rel="noopener noreferrer">Instagram</a>
-                    </li>
-                    <li class="uphero-item">
-                        <a class="uphero-link link" href="/" target="_blank" rel="noopener noreferrer">Youtube</a>
-                    </li>
-                </ul>
+               
 
                 <nav class="header-nav">
                     <ul class="header-nav-list">
-                        <li class="header-nav-item"><a class="header-nav-link current" href="#">About</a></li>
-                        <li class="header-nav-item"><a class="header-nav-link" href="#">Services and prices</a></li>
-                        <li class="header-nav-item"><a class="header-nav-link" href="#">Barbers</a></li>
-                        <li class="header-nav-item"><a class="header-nav-link" href="./bookadress.html">Contacts</a>
+                        <li><a class="header-nav-link" href="#">About</a></li>
+                        <li><a class="header-nav-link" href="#">Services and prices</a></li>
+                        <li><a class="header-nav-link" href="#">Barbers</a></li>
+                        <li><a class="header-nav-link" href="./bookadress.html">Contacts</a>
                         </li>
                     </ul>
                 </nav>
-
                 <a class="header-contact" href="tel:+380441111111">+38 044 111 11 11</a>
                 <button class="header-btn btn" type="button">Online-booking</button>
-
             </div>
         </section>
     </header>
@@ -60,41 +51,44 @@
 
 
 
-
-
-
-
-
     <!--О нас-->
     <main>
-
-        <section class="section">
+        <section class="hero">
             <div class="container">
 
-                <span class=" hero-uptitle uptitle">A hair salon for men in Kyiv</span>
-                <h1 class="hero-title section-title">BarberShop</h1>
-                <p class="hero-subtitle">We are experts in trendy men’s haircuts.
-                    We work quickly, carefully and with style.
-                </p>
+                <ul class="hero-list">
+                    <li class="hero-item">
+                        <a class="hero-link link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    </li>
+                    <li class="hero-item">
+                        <a class="hero-link link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+                    </li>
+                </ul>
 
-                <ul class="hero-subtitle-text">
+                <p class="hero-uptitle">A hair salon for men in Kyiv</p>
+                <h1 class="hero-title">BarberShop</h1>
+                <p class="hero-subtitle"> We are experts in trendy men’s haircuts. 
+                    We work quickly, carefully and with style.
+                </p> 
+
+                <!-- <ul class="hero-subtitle-text">
                     <li class="hero-subtitletext-link"><a href="#">Back</a>
                     <li class="hero-subtitletext-link"><a href="#">Forward</a>
-                </ul>
+                </ul> -->
 
             </div>
         </section>
 
+
+
         <section class="about">
-
-            <ul class="about-list">
-                <li class="about-item"><img src="./images/img1.jpg" width="270" height="445" alt="img1"></li>
-                <li class="about-item"><img src="./images/img2.jpg" width="270" height="445" alt="img2"></li>
-            </ul>
-
             <div class="container">
+                <ul class="about-list">
+                    <li class="about-item"><img src="./images/img1.jpg" width="270" height="445" alt="img1"></li>
+                    <li class="about-item"><img src="./images/img2.jpg" width="270" height="445" alt="img2"></li>
+                </ul>
                 <p class="about-uptitle uptitle">About</p>
-                <h2 class="about-title section-title">Best Barbershop in your city</h2>
+                <h2 class="section-title about-title">Best Barbershop in your city</h2>
                 <p class="about-subtitle">If you want to add more confidence to your image, you should definitely visit
                     us.
                 </p>
@@ -106,7 +100,7 @@
                     of our master, you will never be the same again. We are a team that is always "on the same wave"
                     with clients.
                     Therefore, we are always ready to improve everyone who comes to us!</p>
-                <button class="about-btn btn" type="button">ONLINE-BOOKING</button>
+                <button class="about-btn" type="button">ONLINE-BOOKING</button>
             </div>
 
         </section>
@@ -191,12 +185,12 @@
 
             <div class="container">
                 <span class="benefits-uptitle uptitle">Old traditional school</span>
-            <h2 class="section-title benefits-title">¿Why people come to us?</h2>
-            <p class="benefits-subtitle">Only good things are said about us. But it's better to see and feel 1 time
-                than
-                read 10 times.</p>
+                <h2 class="section-title benefits-title">¿Why people come to us?</h2>
+                <p class="benefits-subtitle">Only good things are said about us. But it's better to see and feel 1 time
+                    than
+                    read 10 times.</p>
             </div>
-            
+
 
 
         </section>
@@ -281,6 +275,7 @@
         <!--Портфоліо-->
         <section class="section">
             <span class="slogan">In Latin, "barba" means "beard</span>
+            <h2 hidden>Portfolio</h2>
             <ul>
                 <li class="job-review"> <img src="./images/barber_work1.jpg" alt="barber_work1" width="270"
                         height="360"></li>
@@ -293,6 +288,7 @@
             </ul>
         </section>
 
+
         <!--Контакти-->
         <section class="section">
             <div class="container">
@@ -303,40 +299,44 @@
                     <li class="booking-link"></li>
                 </ul>
                 <button class="contact-btn btn" type="button">send</button>
-                <h3 class="contact-title">Contacts</h3>
+
             </div>
         </section>
 
         <section class="section">
             <div class="container">
-                <ul class="contacts">
-                    <li class="contact-item">
-                        <a class="contact-link"
-                            href="https://www.google.com/maps/place/Barbershop+Hard/@50.403466,30.3757174,17z/data=!4m12!1m6!3m5!1s0x40d4cb1645bab8d5:0xc13e3e83bd915fcc!2sBarbershop+Hard!8m2!3d50.4034626!4d30.3779061!3m4!1s0x40d4cb1645bab8d5:0xc13e3e83bd915fcc!8m2!3d50.4034626!4d30.3779061?hl=ru"
-                            rel="external nofollow noreferrer">
-                            м. Київ, пр-т Лесі Українки, 26
-                        </a>
-                    </li>
-                    <li class="contact-item">
-                        <a class="contact-link" href="mailto:barbershop@email.com">barbershop@email.com </a>
-                    </li>
-                    <li class="contact-item">
-                        <a class="contact-link" href="tel:++380441111111">+38 044 111 11 11</a>
-                    </li>
-                </ul>
-                <h4 class="wh-title">Working hours</h4>
+                <h3 class="contact-title">Contacts</h3>
+                <address class="address-item">
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <a class="contact-link"
+                                href="https://www.google.com/maps/place/Barbershop+Hard/@50.403466,30.3757174,17z/data=!4m12!1m6!3m5!1s0x40d4cb1645bab8d5:0xc13e3e83bd915fcc!2sBarbershop+Hard!8m2!3d50.4034626!4d30.3779061!3m4!1s0x40d4cb1645bab8d5:0xc13e3e83bd915fcc!8m2!3d50.4034626!4d30.3779061?hl=ru"
+                                rel="external nofollow noreferrer">
+                                м. Київ, пр-т Лесі Українки, 26
+                            </a>
+                        </li>
+                        <li class="contact-item">
+                            <a class="contact-link" href="mailto:barbershop@email.com">barbershop@email.com </a>
+                        </li>
+                        <li class="contact-item">
+                            <a class="contact-link" href="tel:++380441111111">+38 044 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
+
+                <span class="wh-title">Working hours</span>
                 <p class="wh-subtitle">Every day from 9:00 to 22:00</p>
             </div>
         </section>
-
-
     </main>
+
+
 
     <!--Підвал-->
     <section class="section">
         <footer class="footer">
             <div class="container">
-                <p class="footer-copyright"><img src="./images/copyright.jpg" alt="Copyright">Copyright 2020</p>
+                &#169; Copyright 2020
 
                 <ul class="footer-socialnetwork">
                     <li class="footer-socialnetwork-item">

@@ -5,6 +5,8 @@
 /* ---HeroUptitle-Herosubtitletextlink-Pricesuptitle uptitle-Bookinglinkcolor: rgba(157, 164, 189, 0.4); */
 
 :root {
+    --font-raleway: 'Raleway', sans-serif;
+    --font-opensans: 'Open Sans', sans-serif;
     --Primary-page-color: #FFFFFF;
     --Secondary-page-color: #303030;
     --Accent-page-color: #FF6C00;
@@ -19,8 +21,25 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    font-family: var(--font-opensans) background-color: #E5E5E5;
 }
+
+ul {
+    list-style: none;
+}
+
+/* .container {
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+} */
+
+/* .section {
+    padding-top: 92px;
+    padding-bottom: 92px;
+} */
 
 
 /*----------------------- HEADER----LOGOSECTION---------------- */
@@ -30,8 +49,8 @@ body {
 .section-logo {}
 
 .image-logo {
- margin-top: 32px;
- margin-left: 55px;   
+    margin-top: 32px;
+    margin-left: 55px;
 }
 
 .uphero-list {
@@ -42,7 +61,7 @@ body {
 
 .uphero-link {
     margin-top: 40px;
-    font-family: 'Open Sans';
+    font-family: var(--font-opensans);
     font-style: normal;
     font-weight: 600;
     font-size: 11px;
@@ -64,77 +83,86 @@ body {
     text-decoration: none;
 }
 
-.container {
-    width: 1600px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    outline: 2px solid tomato;
-}
-.section {
-    /* padding-top: 92px; */
-    padding-bottom: 92px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
 
 
 
 
-/* ---------------HEADER---SECTIONHERO--------------- */
+/* ---------------HEADER---------------- */
 
 .header {
-    
-    background-image: url(../images/hero.jpg)
+
+    background-color: palevioletred;
+}
+
+.header a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--Primary-page-color);
+    text-decoration: none;
 }
 
 .header-nav {
     /* margin: 40px 20px 0px 100px; */
-   
+
 }
-.header-nav-list {
+
+/* .header-nav-list {
     display: flex;
-}
+    gap: 30px;
+} */
 
 .header-nav-item {}
 
-.header-nav-link {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
-    color: var(--Primary-page-color);
-
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #FF6C00;
 }
 
-.current {
-    color: var(--Accent-page-color);
+.header-nav-link:active {
+    color: var(--Secondary-page-color);
 }
+
 
 .header-contact {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--Primary-page-color);
 }
 
 .header-btn {
-    font-family: 'Open Sans';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-
     color: var(--Primary-page-color);
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
-.btn {}
 
-.hero-uptitle {
+
+
+/* -------------SECTION----HERO----- */
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+
+/* .hero-uptitle {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -142,62 +170,81 @@ body {
     line-height: 1.36;
     text-transform: uppercase;
     color: var(--HeroUptitle-Herosubtitletextlink-Pricesuptitle);
+} */
+
+.uptitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--Secondary-page-color);
 }
 
-.uptitle {}
+.hero {
+    background-image: url(/images/hero.jpg);
+}
+
+.hero-list {
+    background-color: #FFFFFF;
+}
+
+.hero-uptitle {
+    color: rgba(157, 164, 189, 0.6);
+}
 
 .hero-title {
-    font-family: 'Raleway';
+    font-family: var(--font-raleway);
     font-style: normal;
-    font-weight: 700;
     font-size: 72px;
     line-height: 1.18;
     letter-spacing: 0.05em;
     color: var(--Primary-page-color);
 }
 
-.section-title {}
 
-.hero-subtitle-text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
+.hero-subtitle {
     font-size: 18px;
     line-height: 1.66;
     letter-spacing: 0.02em;
     color: var(--HeroSubtitle-PricesList-ContactItem-whSubtitle-Grey-color);
 }
 
+.hero-subtitle-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+
+}
+
+.hero a {
+    text-decoration: none;
+}
+
+
 
 
 /* ----------SECTION-ABOUT--------------------- */
-.section-about {}
+.about {}
+
+.about-list {}
 
 .about-item {}
 
 .about-uptitle {
-    font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
     text-transform: uppercase;
-    color: var(--HeroUptitle-Herosubtitletextlink-Pricesuptitle);
+    color: #303030;
 }
 
 .uptitle {}
 
 .about-title {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 1.16;
-    letter-spacing: 0.05em;
     color: var(--Secondary-page-color);
 }
 
-.section-title {}
 
 .about-subtitle {
     font-family: 'Open Sans';
